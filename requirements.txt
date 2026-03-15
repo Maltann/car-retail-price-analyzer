@@ -1,0 +1,18 @@
+# Base
+pandas>=2.1.0
+numpy>=1.26.0
+
+# Scraping
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+playwright>=1.40.0          # pour LaCentrale (JS rendering)
+
+# Qualité des données
+rapidfuzz>=3.5.0             # fuzzy matching pour normaliser les noms
+
+# CLI
+rich>=13.7.0                 # affichage terminal coloré et tableaux
+
+# Dev / tests
+python-dotenv>=1.0.0
